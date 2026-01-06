@@ -1,0 +1,7 @@
+{
+  "name": "SwiftScan Checkout",
+  "description": "A high-efficiency self-checkout grocery application featuring two-step verification for secure and error-free shopping.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
