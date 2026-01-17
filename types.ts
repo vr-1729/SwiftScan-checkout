@@ -19,7 +19,8 @@ export enum AppView {
   SCAN_BAG = 'scan_bag',
   CART = 'cart',
   CHECKOUT = 'checkout',
-  SUCCESS = 'success'
+  SUCCESS = 'success',
+  AI_LAB = 'ai_lab'
 }
 
 export enum PaymentMethod {
@@ -27,8 +28,18 @@ export enum PaymentMethod {
   CASH = 'cash'
 }
 
+export enum InAppMethod {
+  CARD = 'card',
+  UPI = 'upi'
+}
+
 export interface ShoppingInsight {
   totalCalories?: number;
   recipeSuggestion?: string;
   savingTips?: string;
+}
+
+export interface GroundingSource {
+  title?: string;
+  uri?: string;
 }
